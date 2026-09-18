@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abhisanapala2806.github.io/react-js/",
+  "homepage": "https://abhiramsanapala2806.github.io/Reactjs/",
   "scripts": {
     "lint": "eslint .",
     "dev": "vite",
