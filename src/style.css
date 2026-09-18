@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #172033;
+  background: linear-gradient(135deg, #eff6ff, #f8fafc 55%, #e0f2fe);
+}
+
+.app-shell {
+  display: grid;
+  min-height: 100vh;
+  padding: 2rem;
+  place-items: center;
+}
+
+.welcome-card {
+  width: min(100%, 42rem);
+  padding: clamp(2rem, 5vw, 4rem);
+  border: 1px solid #dbeafe;
+  border-radius: 1.5rem;
+  background: rgb(255 255 255 / 85%);
+  box-shadow: 0 24px 60px rgb(30 64 175 / 12%);
+}
+
+.eyebrow {
+  margin-bottom: 0.75rem;
+  color: #2563eb;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 1.05;
+}
+
+.welcome-card p:last-child {
+  max-width: 34rem;
+  color: #475569;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
